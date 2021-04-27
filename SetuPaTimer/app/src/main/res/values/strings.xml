@@ -1,3 +1,9 @@
 <resources>
   <string name="app_name">SetuPaTimer</string>
+  
+  <string name="bottombar_button_all">Все</string>
+  <string name="bottombar_button_unwatched">Свежие</string>
+  <string name="bottombar_button_watched">Бояны</string>
+  <string name="bottombar_button_favorite">Любимые</string>
+  
 </resources>
