@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+  
+  <item
+    android:id="@+id/bottom_bar_btn_all"
+    android:enabled="true"
+    android:icon="@drawable/ic_list"
+    android:title="@string/bottombar_button_all" />
+  
+  <item
+    android:id="@+id/bottom_bar_btn_unwatched"
+    android:enabled="true"
+    android:icon="@drawable/ic_unwatched"
+    android:title="@string/bottombar_button_unwatched" />
+  
+  <item
+    android:id="@+id/bottom_bar_btn_watched"
+    android:enabled="true"
+    android:icon="@drawable/ic_watched"
+    android:title="@string/bottombar_button_watched" />
+  
+  <item
+    android:id="@+id/bottom_bar_btn_favorite"
+    android:enabled="true"
+    android:icon="@drawable/ic_favorite"
+    android:title="@string/bottombar_button_favorite" />
+  
+</menu>
