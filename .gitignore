@@ -83,3 +83,35 @@ lint/generated/
 lint/outputs/
 lint/tmp/
 # lint/reports/
+
+# self
+data_jokes/
+data_html_jokes/
+
+SetuPaTimer/*.iml
+SetuPaTimer/.gradle
+SetuPaTimer/local.properties
+SetuPaTimer/.idea/caches
+SetuPaTimer/.idea/
+SetuPaTimer/.idea/libraries
+SetuPaTimer/.idea/modules.xml
+SetuPaTimer/.idea/workspace.xml
+SetuPaTimer/.idea/navEditor.xml
+SetuPaTimer/.idea/assetWizardSettings.xml
+SetuPaTimer/.DS_Store
+SetuPaTimer/build
+SetuPaTimer/captures
+SetuPaTimer/.externalNativeBuild
+SetuPaTimer/.cxx
+SetuPaTimer/local.properties
+
+SetuPaTimer/.gitignore
+
+SetuPaTimer/app/.gitignore
+SetuPaTimer/app/proguard-rules.pro
+
+SetuPaTimer/gradle/
+SetuPaTimer/gradlew
+SetuPaTimer/gradlew.bat
+SetuPaTimer/gradle.properties
+SetuPaTimer/settings.gradle
