@@ -15,42 +15,83 @@
     <TextView
       android:layout_width="match_parent"
       android:layout_height="wrap_content"
-      android:textColor="@color/purple"
-      android:text="Приложение, которое хранит в себе около 60 плохих шуток (18+)"
+      android:textColor="@color/white"
+      android:text="@string/info_text_0"
       android:gravity="center"
       />
   
     <TextView
       android:layout_width="match_parent"
       android:layout_height="wrap_content"
-      android:textColor="@color/purple"
-      android:text="Выбирая шутку в верху экрана появлется полный текст и две кнопки : Узнать продолжение и Добавить в Любимые"
+      android:textColor="@color/white"
+      android:text="@string/info_text_1"
       android:gravity="center"
       />
   
     <TextView
       android:layout_width="match_parent"
       android:layout_height="wrap_content"
-      android:textColor="@color/purple"
-      android:text="Продолжение шутейки вылетает внизу экрана на короткое время"
+      android:textColor="@color/white"
+      android:text="@string/info_text_2"
       android:gravity="center"
       />
   
     <TextView
       android:layout_width="match_parent"
       android:layout_height="wrap_content"
-      android:textColor="@color/purple"
-      android:text="Приложение работает без интернета"
+      android:textColor="@color/white"
+      android:text="@string/info_text_3"
       android:gravity="center"
       />
   
     <TextView
       android:layout_width="match_parent"
       android:layout_height="wrap_content"
-      android:textColor="@color/purple"
-      android:text="123213123213123123"
+      android:textColor="@color/white"
+      android:text="@string/info_text_4"
       android:gravity="center"
       />
+  
+    <ImageButton
+      android:layout_width="@dimen/info_image_size"
+      android:layout_height="@dimen/info_image_size"
+      android:scaleType="centerCrop"
+      android:layout_gravity="center"
+      android:background="@null"
+      android:tint="@color/green"
+      android:src="@drawable/info_github" />
+  
+    <TextView
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:textColor="@color/white"
+      android:text="@string/info_text_5"
+      android:gravity="center"
+      />
+  
+    <LinearLayout
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:gravity="center"
+      android:orientation="horizontal">
+    
+      <ImageButton
+        android:layout_width="@dimen/info_image_size"
+        android:layout_height="@dimen/info_image_size"
+        android:scaleType="centerCrop"
+        android:background="@null"
+        android:tint="@color/red"
+        android:src="@drawable/info_instagram" />
+    
+      <ImageButton
+        android:layout_width="@dimen/info_image_size"
+        android:layout_height="@dimen/info_image_size"
+        android:scaleType="centerCrop"
+        android:background="@null"
+        android:tint="@color/blue"
+        android:src="@drawable/info_telegram" />
+  
+    </LinearLayout>
     
   </LinearLayout>
   
