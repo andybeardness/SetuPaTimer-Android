@@ -71,4 +71,22 @@ Click to play youtube video
 
 ## Project Structire
 
+App was crated with conditions :
 
+- Use RecyclerView
+- Use BottomNavBar
+- Use single database / cursor objects with access for any program point
+
+Structure :
+
+- [Codez](https://github.com/andybeardness/Android-SetuPaTimer/tree/main/SetuPaTimer/app/src/main/java/com/beardness/setupatimer/Codez) : 
+	- [Databasez](https://github.com/andybeardness/Android-SetuPaTimer/tree/main/SetuPaTimer/app/src/main/java/com/beardness/setupatimer/Codez/Databasez) : 
+		- [JokeDB.java](https://github.com/andybeardness/Android-SetuPaTimer/blob/main/SetuPaTimer/app/src/main/java/com/beardness/setupatimer/Codez/Databasez/JokeDB.java) : Database class with managing single objects for any fragments
+	- [Factoriez](https://github.com/andybeardness/Android-SetuPaTimer/tree/main/SetuPaTimer/app/src/main/java/com/beardness/setupatimer/Codez/Factoriez) : 
+		- [AdapterFactory.java](https://github.com/andybeardness/Android-SetuPaTimer/blob/main/SetuPaTimer/app/src/main/java/com/beardness/setupatimer/Codez/Factoriez/AdapterFactory.java) : Factory for Adapters
+		- [FTFactory.java](https://github.com/andybeardness/Android-SetuPaTimer/blob/main/SetuPaTimer/app/src/main/java/com/beardness/setupatimer/Codez/Factoriez/FTFactory.java) : Factory for Fragment Transactions
+		- [ListenerFactory.java](https://github.com/andybeardness/Android-SetuPaTimer/blob/main/SetuPaTimer/app/src/main/java/com/beardness/setupatimer/Codez/Factoriez/ListenerFactory.java) : Factory for Listeners
+		- [NotificationFactory.java](https://github.com/andybeardness/Android-SetuPaTimer/blob/main/SetuPaTimer/app/src/main/java/com/beardness/setupatimer/Codez/Factoriez/NotificationFactory.java) : Factory for Notifications
+		- [ToastFactory.java](https://github.com/andybeardness/Android-SetuPaTimer/blob/main/SetuPaTimer/app/src/main/java/com/beardness/setupatimer/Codez/Factoriez/ToastFactory.java) : Factory for Toast
+	- [Helperz](https://github.com/andybeardness/Android-SetuPaTimer/tree/main/SetuPaTimer/app/src/main/java/com/beardness/setupatimer/Codez/Helperz) : 
+		- [RecyclerJokesAdapter.java](https://github.com/andybeardness/Android-SetuPaTimer/blob/main/SetuPaTimer/app/src/main/java/com/beardness/setupatimer/Codez/Helperz/RecyclerJokesAdapter.java) : Custom Recycler Adapter
