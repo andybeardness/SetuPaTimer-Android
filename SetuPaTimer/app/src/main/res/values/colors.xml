@@ -5,6 +5,36 @@
   <color name="purple_700">#FF3700B3</color>
   <color name="teal_200">#FF03DAC5</color>
   <color name="teal_700">#FF018786</color>
-  <color name="black">#FF000000</color>
-  <color name="white">#FFFFFFFF</color>
+
+  <!-- Monokai colors -->
+  <!-- From : https://marketplace.visualstudio.com/items?itemName=SuperPaintman.monokai-extended -->
+  
+  <color name="black">#FF272822</color>
+  <color name="white">#FFF8F8F2</color>
+  <color name="grey">#FF75715E</color>
+  <color name="red">#FFF92672</color>
+  <color name="orange">#FFFD971F</color>
+  <color name="orange_light">#FFE69F66</color>
+  <color name="yellow">#FFE6DB74</color>
+  <color name="green">#FFA6E22E</color>
+  <color name="blue">#FF66D9EF</color>
+  <color name="purple">#FFAE81FF</color>
+  
+  <!-- Transparent Monokai colors -->
+  
+  <color name="black_transparent">#11272822</color>
+  <color name="white_transparent">#11F8F8F2</color>
+  <color name="grey_transparent">#1175715E</color>
+  <color name="red_transparent">#11F92672</color>
+  <color name="orange_transparent">#11FD971F</color>
+  <color name="orange_light_transparent">#11E69F66</color>
+  <color name="yellow_transparent">#11E6DB74</color>
+  <color name="green_transparent">#11A6E22E</color>
+  <color name="blue_transparent">#1166D9EF</color>
+  <color name="purple_transparent">#11AE81FF</color>
+  
+  <!-- Shadow -->
+  
+  <color name="black_shadow">#4F131311</color>
+
 </resources>
