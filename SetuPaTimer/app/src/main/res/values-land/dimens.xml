@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <dimen name="h1">30sp</dimen>
+  <dimen name="h2">22sp</dimen>
+  <dimen name="h3">16sp</dimen>
+  <dimen name="h4">12sp</dimen>
+  
+  <dimen name="stroke_width">1dp</dimen>
+  <dimen name="corner_radius">12dp</dimen>
+  
+  <dimen name="main_items_margin_bottom">12dp</dimen>
+  <dimen name="main_padding">16dp</dimen>
+  
+  <dimen name="joke_list_padding">20dp</dimen>
+  <dimen name="joke_list_padding_TB">32dp</dimen>
+  <dimen name="joke_list_margin_H">10dp</dimen>
+  <dimen name="joke_list_margin_V">5dp</dimen>
+  
+  <dimen name="choosen_joke_padding">32dp</dimen>
+  <dimen name="joke_react_padding">24dp</dimen>
+  
+  <dimen name="info_image_size">50dp</dimen>
+  <dimen name="info_item_margin_V">10dp</dimen>
+  <dimen name="info_button_margin_H">10dp</dimen>
+  <dimen name="choosen_joke_main_padding">4dp</dimen>
+</resources>
