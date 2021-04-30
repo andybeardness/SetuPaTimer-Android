@@ -18,5 +18,8 @@
   
   <dimen name="choosen_joke_padding">32dp</dimen>
   <dimen name="joke_react_padding">8dp</dimen>
-  <dimen name="info_image_size">46dp</dimen>
+  
+  <dimen name="info_image_size">50dp</dimen>
+  <dimen name="info_item_margin_V">10dp</dimen>
+  <dimen name="info_button_margin_H">10dp</dimen>
 </resources>
