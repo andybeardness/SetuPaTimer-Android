@@ -61,3 +61,12 @@ There are three image-buttons at Info-page :
 
 ## Project Structire
 
+Click to play youtube video
+
+⚠️ DANGER :
+
+- _Link is opening at current tab_ 
+- _Video contains music_
+
+[![preview](https://raw.githubusercontent.com/andybeardness/Android-SetuPaTimer/main/imgs/youtube_preview.png)](https://www.youtube.com/watch?v=T_0nY_sfZLY "https://raw.githubusercontent.com/andybeardness/Android-SetuPaTimer/main/imgs/youtube_preview.png")
+
