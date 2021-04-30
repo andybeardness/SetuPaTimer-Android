@@ -73,6 +73,7 @@ Click to play youtube video
 
 App was crated with conditions :
 
+- Minimize "Android" code : Activity, Fragments...
 - Use RecyclerView
 - Use BottomNavBar
 - Use single database / cursor objects with access for any program point
