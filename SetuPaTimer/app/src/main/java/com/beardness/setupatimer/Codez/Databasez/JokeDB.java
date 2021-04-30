@@ -5,10 +5,10 @@ import android.content.Context;
 import android.database.Cursor;
 import android.database.sqlite.SQLiteDatabase;
 import android.database.sqlite.SQLiteOpenHelper;
-import android.util.Log;
 
 import androidx.annotation.Nullable;
 
+// Data base with methods to safe using objects
 public class JokeDB extends SQLiteOpenHelper {
   
   public static final String DB_NAME = "JOKES";
@@ -147,6 +147,7 @@ public class JokeDB extends SQLiteOpenHelper {
     return data;
   }
   
+  // Update db with closing old version and ContentValues
   public synchronized static SQLiteDatabase updateDB(String dbName,
                                                      ContentValues content,
                                                      String where,
@@ -172,6 +173,7 @@ public class JokeDB extends SQLiteOpenHelper {
     
     switch (cursorType) {
       
+      // All data
       case CURSOR_TYPE_ALL:
         cursor = data.query(
           DB_NAME,
@@ -189,7 +191,8 @@ public class JokeDB extends SQLiteOpenHelper {
           null );
         
         break;
-        
+      
+      // Only unwatched
       case CURSOR_TYPE_UNWATCHED:
         cursor = data.query(
           JokeDB.DB_NAME,
@@ -212,6 +215,7 @@ public class JokeDB extends SQLiteOpenHelper {
         
         break;
         
+      // Only favorite
       case CURSOR_TYPE_FAVORITE:
         cursor = data.query(
           JokeDB.DB_NAME,
@@ -233,6 +237,7 @@ public class JokeDB extends SQLiteOpenHelper {
         
         break;
         
+      // Only watched
       case CURSOR_TYPE_WATCHED:
         cursor = data.query(
           JokeDB.DB_NAME,
@@ -254,6 +259,7 @@ public class JokeDB extends SQLiteOpenHelper {
         
         break;
         
+      // Default = All data
       default:
         cursor = updateListJokesCursor(JokeDB.CURSOR_TYPE_ALL);
         
@@ -287,6 +293,7 @@ public class JokeDB extends SQLiteOpenHelper {
   
   // PRIVATE METHODS
   
+  // Insert row at init
   private static void initialInsertRow(SQLiteDatabase db,
                                        String setUp,
                                        String punchline,
@@ -304,10 +311,13 @@ public class JokeDB extends SQLiteOpenHelper {
   
   // PRIVATE HELPERS METHODS
   
+  // true -> 1
+  // false -> 0
   private static int booleanToInt(boolean b) {
     return b ? 1 : 0;
   }
   
+  // String to Sub-String
   private static String getCuttedString(String s) { return s.length() > cutter ? s.substring(0, cutter) + separator : s; }
   
 }

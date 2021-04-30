@@ -1,10 +1,5 @@
 package com.beardness.setupatimer.Codez.Factoriez;
 
-import android.app.Activity;
-import android.content.Context;
-import android.util.Log;
-
-import androidx.appcompat.app.ActionBarDrawerToggle;
 import androidx.fragment.app.Fragment;
 import androidx.fragment.app.FragmentManager;
 

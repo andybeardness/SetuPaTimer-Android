@@ -57,10 +57,6 @@ There are three image-buttons at Info-page :
 
 ### Youtube preview
 
-----
-
-## Project Structire
-
 Click to play youtube video
 
 ⚠️ DANGER :
@@ -71,3 +67,9 @@ Click to play youtube video
 <a href="https://www.youtube.com/watch?v=T_0nY_sfZLY">
 	<img src="https://raw.githubusercontent.com/andybeardness/Android-SetuPaTimer/main/imgs/yt.png" height="200">
 </a>
+
+----
+
+## Project Structire
+
+

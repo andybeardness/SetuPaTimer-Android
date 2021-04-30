@@ -1,13 +1,9 @@
 package com.beardness.setupatimer;
 
-import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.fragment.app.FragmentManager;
 
-import android.database.Cursor;
 import android.os.Bundle;
-import android.util.Log;
-import android.view.MenuItem;
 
 import com.beardness.setupatimer.Codez.Databasez.JokeDB;
 import com.beardness.setupatimer.Codez.Factoriez.FTFactory;

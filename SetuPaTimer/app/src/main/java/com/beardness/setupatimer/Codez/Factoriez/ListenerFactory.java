@@ -24,21 +24,25 @@ import com.beardness.setupatimer.FragmentInfo;
 import com.beardness.setupatimer.R;
 import com.google.android.material.bottomnavigation.BottomNavigationView;
 
+// Factory fo Listeners
 public class ListenerFactory {
   
   private ListenerFactory() {}
   
+  // Listener for item in list in Recycler
   public static View.OnClickListener getJokeItemListener(RecyclerJokesAdapter.JokeViewHolder viewHolder,
                                                          RecyclerJokesAdapter adapter) {
     return new View.OnClickListener() {
       @Override
       public void onClick(View v) {
+        // Prepare
         AppCompatActivity activity = (AppCompatActivity) v.getContext();
         int position = viewHolder.getAdapterPosition();
         
         JokeDB.cursor().moveToPosition(position);
         int itemID = JokeDB.cursor().getInt(JokeDB.cursor().getColumnIndex(JokeDB.COL_ID));
         
+        // Change choosen joke fragment with bundle
         Bundle bundle = new Bundle();
         bundle.putInt(
           FragmentChoosenJoke.BUNDLE_JOKE_ID,
@@ -51,6 +55,7 @@ public class ListenerFactory {
         choosenJoke.setArguments(bundle);
         FTFactory.setJoke(activity.getSupportFragmentManager(), choosenJoke);
   
+        // Status working
         int status = JokeDB.cursor().getInt(JokeDB.cursor().getColumnIndex(JokeDB.COL_STATUS));
   
         if (status == 0) {
@@ -70,6 +75,7 @@ public class ListenerFactory {
     };
   }
   
+  // Listener for send punchline button
   public static View.OnClickListener getSendPunchlineListener(FragmentChoosenJoke fragment,
                                                               RecyclerJokesAdapter adapter,
                                                               int position) {
@@ -94,6 +100,7 @@ public class ListenerFactory {
     };
   }
   
+  // Listener for make favorite button
   public static View.OnClickListener getMakeFavoriteListener(FragmentChoosenJoke fragment,
                                                              RecyclerJokesAdapter adapter,
                                                              int position) {
@@ -135,6 +142,7 @@ public class ListenerFactory {
     };
   }
   
+  // Listener for navigation bar
   public static BottomNavigationView.OnNavigationItemSelectedListener getBottomNavigationListener(FragmentManager manager) {
     return new BottomNavigationView.OnNavigationItemSelectedListener() {
       @Override
@@ -182,6 +190,7 @@ public class ListenerFactory {
     };
   }
   
+  // Listener for GitHub link
   public static View.OnClickListener getSourceCodeListener(Context context) {
     return new View.OnClickListener() {
       @Override
@@ -193,6 +202,7 @@ public class ListenerFactory {
     };
   }
   
+  // Listener for Instagram link
   public static View.OnClickListener getInstagramListener(Context context) {
     return new View.OnClickListener() {
       @Override
@@ -212,6 +222,7 @@ public class ListenerFactory {
     };
   }
   
+  // Listener for Telegram link
   public static View.OnClickListener getTelegramListener(Context context) {
     return new View.OnClickListener() {
       @Override
@@ -230,4 +241,5 @@ public class ListenerFactory {
       }
     };
   }
+  
 }

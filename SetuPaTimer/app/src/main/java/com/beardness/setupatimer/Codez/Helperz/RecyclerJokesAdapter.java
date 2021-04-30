@@ -13,6 +13,7 @@ import com.beardness.setupatimer.Codez.Databasez.JokeDB;
 import com.beardness.setupatimer.Codez.Factoriez.ListenerFactory;
 import com.beardness.setupatimer.R;
 
+// Custom adapter for Recycler
 public class RecyclerJokesAdapter extends RecyclerView.Adapter<RecyclerJokesAdapter.JokeViewHolder> {
   
   private String type;

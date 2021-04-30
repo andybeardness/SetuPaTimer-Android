@@ -12,6 +12,7 @@ import com.beardness.setupatimer.R;
 
 import java.util.Random;
 
+// Factory notifications (doesn't use yet)
 public class NotificationFactory {
   
   public static final String NOTIFICATION_CHANEL_ID = "punchline_chanel_id";
@@ -22,6 +23,7 @@ public class NotificationFactory {
   
   private NotificationFactory(){}
   
+  // Send notification
   public static void sendDelayedNotification(Context context, String setUp, String punchline) {
     long delay = (long) (random.nextInt(2000) + 1000);
     Handler handler = new Handler(Looper.myLooper());

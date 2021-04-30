@@ -1,7 +1,5 @@
 package com.beardness.setupatimer;
 
-import android.database.Cursor;
-import android.database.sqlite.SQLiteDatabase;
 import android.os.Bundle;
 
 import androidx.fragment.app.Fragment;
@@ -14,7 +12,6 @@ import android.widget.ImageButton;
 import android.widget.TextView;
 
 import com.beardness.setupatimer.Codez.Databasez.JokeDB;
-//import com.beardness.setupatimer.Codez.Factoriez.CursorFactory;
 import com.beardness.setupatimer.Codez.Factoriez.ListenerFactory;
 import com.beardness.setupatimer.Codez.Helperz.RecyclerJokesAdapter;
 
