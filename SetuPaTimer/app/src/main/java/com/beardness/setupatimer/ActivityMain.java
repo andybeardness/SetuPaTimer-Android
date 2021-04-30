@@ -11,6 +11,7 @@ import android.view.MenuItem;
 
 import com.beardness.setupatimer.Codez.Databasez.JokeDB;
 import com.beardness.setupatimer.Codez.Factoriez.FTFactory;
+import com.beardness.setupatimer.Codez.Factoriez.ListenerFactory;
 import com.google.android.material.bottomnavigation.BottomNavigationView;
 
 public class ActivityMain extends AppCompatActivity {
@@ -32,57 +33,12 @@ public class ActivityMain extends AppCompatActivity {
     FTFactory.setJokesList(manager, JokeDB.CURSOR_TYPE_ALL);
   
     bottomNavigation = (BottomNavigationView) findViewById(R.id.bottom_navigation);
-    bottomNavigation.setOnNavigationItemSelectedListener(new BottomNavigationView.OnNavigationItemSelectedListener() {
-      @Override
-      public boolean onNavigationItemSelected(@NonNull MenuItem item) {
-        switch (item.getItemId()) {
-
-          case R.id.bottom_bar_btn_all:
-            Log.d("BOTTOM_BAR", "ALL");
-            FTFactory.setAppTitle(manager);
-            FTFactory.setJokesList(manager, JokeDB.CURSOR_TYPE_ALL);
-            return true;
-
-          case R.id.bottom_bar_btn_unwatched:
-            Log.d("BOTTOM_BAR", "UNWATCHED");
-            FTFactory.setAppTitle(manager);
-            FTFactory.setJokesList(manager, JokeDB.CURSOR_TYPE_UNWATCHED);
-            return true;
-
-          case R.id.bottom_bar_btn_favorite:
-            Log.d("BOTTOM_BAR", "FAVORITES");
-            FTFactory.setAppTitle(manager);
-            FTFactory.setJokesList(manager, JokeDB.CURSOR_TYPE_FAVORITE);
-            return true;
-
-          case R.id.bottom_bar_btn_watched:
-            Log.d("BOTTOM_BAR", "WATCHED");
-            FTFactory.setAppTitle(manager);
-            FTFactory.setJokesList(manager, JokeDB.CURSOR_TYPE_WATCHED);
-            return true;
-
-          case R.id.bottom_bar_btn_info:
-            Log.d("BOTTOM_BAR", "INFO");
-            FTFactory.setAppTitle(manager, FragmentAppTitle.TITLE_TYPE_INFO);
-            FTFactory.setInfoContent(manager);
-            return true;
-
-          default:
-            Log.d("BOTTOM_BAR", "DEFAULT");
-            FTFactory.setAppTitle(manager);
-            FTFactory.setJokesList(manager, JokeDB.CURSOR_TYPE_ALL);
-            return false;
-        }
-
-      }
-    });
-    
+    bottomNavigation.setOnNavigationItemSelectedListener(ListenerFactory.getBottomNavigationListener(manager));
   }
   
   @Override
   protected void onDestroy() {
     super.onDestroy();
-    
     JokeDB.closeAll();
   }
 }
