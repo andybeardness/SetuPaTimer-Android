@@ -1,7 +1,7 @@
 <resources>
   
-  <string name="app_name">СетаПаТаймер</string>
-  <string name="app_name_pretty">«СетаПаТаймер»</string>
+  <string name="app_name">Плохие шутки</string>
+  <string name="app_name_pretty">«Плохие шутки»</string>
   
   <string name="bottom_bar_button_all">Все</string>
   <string name="bottom_bar_button_unwatched">Свежие</string>
@@ -9,11 +9,12 @@
   <string name="bottom_bar_button_favorite">Любимые</string>
   <string name="bottom_bar_button_info">Инфо</string>
   
-  <string name="info_text_0">Приложение, которое хранит в себе около 60 плохих шуток (18+)</string>
-  <string name="info_text_1">Выбирая шутку в верху экрана появлется полный текст и две кнопки : Узнать продолжение и Добавить в Любимые</string>
-  <string name="info_text_2">Продолжение шутейки вылетает внизу экрана на короткое время</string>
-  <string name="info_text_3">Приложение с открытм исходным кодом, работает без интернета, никуда не отправляет ваши данные</string>
+  <string name="info_text_0">Приложение, которое хранит в себе около 60 сетапов и панчлайнов в стиле ака «Плохие шутки» (18+)</string>
+  <string name="info_text_1">Если тыкнуть на сетап, то в верху экрана появится полный текст и две кнопки : «Узнать панчлайн» и «Добавить в Любимые»</string>
+  <string name="info_text_2">Панчлайн вылетает внизу экрана на короткое время</string>
+  <string name="info_text_3">Приложение с открытм исходным кодом, работает без интернета, никуда не отправляет ваши данные, спите спокойно</string>
   <string name="info_text_4">Исходный код :</string>
   <string name="info_text_5">Контакты разработчика :</string>
+  <string name="info_final_joke">Программирование похоже на секс: одна ошибка – и всю жизнь придется поддерживать</string>
 
 </resources>
