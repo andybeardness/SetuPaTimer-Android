@@ -36,6 +36,15 @@ There are three image-buttons at Info-page :
 
 ## Preview
 
+### Landspace s-shots
+
+|   |   |
+| - | - |
+| ![screenshot_0](https://github.com/andybeardness/Android-SetuPaTimer/blob/main/imgs/ss_portrait/0.png) | ![screenshot_1](https://github.com/andybeardness/Android-SetuPaTimer/blob/main/imgs/ss_portrait/1.png) |
+| ![screenshot_2](https://github.com/andybeardness/Android-SetuPaTimer/blob/main/imgs/ss_portrait/2.png) | ![screenshot_3](https://github.com/andybeardness/Android-SetuPaTimer/blob/main/imgs/ss_portrait/3.png) |
+| ![screenshot_4](https://github.com/andybeardness/Android-SetuPaTimer/blob/main/imgs/ss_portrait/4.png) | ![screenshot_5](https://github.com/andybeardness/Android-SetuPaTimer/blob/main/imgs/ss_portrait/5.png) |
+| ![screenshot_6](https://github.com/andybeardness/Android-SetuPaTimer/blob/main/imgs/ss_portrait/6.png) | ![screenshot_7](https://github.com/andybeardness/Android-SetuPaTimer/blob/main/imgs/ss_portrait/7.png) |
+
 ### Portrait s-shots
 
 |   |   |
@@ -45,8 +54,6 @@ There are three image-buttons at Info-page :
 | ![screenshot_4](https://github.com/andybeardness/Android-SetuPaTimer/blob/main/imgs/ss_land/4.png) | ![screenshot_5](https://github.com/andybeardness/Android-SetuPaTimer/blob/main/imgs/ss_land/5.png) |
 | ![screenshot_6](https://github.com/andybeardness/Android-SetuPaTimer/blob/main/imgs/ss_land/6.png) | ![screenshot_7](https://github.com/andybeardness/Android-SetuPaTimer/blob/main/imgs/ss_land/7.png) |
 | ![screenshot_8](https://github.com/andybeardness/Android-SetuPaTimer/blob/main/imgs/ss_land/8.png) | ![screenshot_9](https://github.com/andybeardness/Android-SetuPaTimer/blob/main/imgs/ss_land/9.png) |
-
-### Landspace s-shots
 
 ### Youtube preview
 
