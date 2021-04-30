@@ -69,5 +69,5 @@ Click to play youtube video
 - _Video contains music_
 
 <a href="https://www.youtube.com/watch?v=T_0nY_sfZLY">
-	<img src="https://raw.githubusercontent.com/andybeardness/Android-SetuPaTimer/main/imgs/yt.png" height="300">
+	<img src="https://raw.githubusercontent.com/andybeardness/Android-SetuPaTimer/main/imgs/yt.png" height="200">
 </a>
