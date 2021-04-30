@@ -5,7 +5,7 @@
   android:layout_width="match_parent"
   android:layout_height="match_parent"
   android:background="@drawable/border_empty_yellow"
-  android:padding="4dp"
+  android:padding="@dimen/choosen_joke_main_padding"
   tools:context=".FragmentChoosenJoke">
   
   <TextView
