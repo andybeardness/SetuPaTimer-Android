@@ -1,8 +1,11 @@
 package com.beardness.setupatimer.Codez.Factoriez;
 
 import android.content.ContentValues;
+import android.content.Context;
+import android.content.Intent;
 import android.database.Cursor;
 import android.database.sqlite.SQLiteDatabase;
+import android.net.Uri;
 import android.os.Bundle;
 import android.util.Log;
 import android.view.MenuItem;
@@ -17,6 +20,7 @@ import com.beardness.setupatimer.Codez.Databasez.JokeDB;
 import com.beardness.setupatimer.Codez.Helperz.RecyclerJokesAdapter;
 import com.beardness.setupatimer.FragmentAppTitle;
 import com.beardness.setupatimer.FragmentChoosenJoke;
+import com.beardness.setupatimer.FragmentInfo;
 import com.beardness.setupatimer.R;
 import com.google.android.material.bottomnavigation.BottomNavigationView;
 
@@ -174,6 +178,55 @@ public class ListenerFactory {
             return false;
         }
         
+      }
+    };
+  }
+  
+  public static View.OnClickListener getSourceCodeListener(Context context) {
+    return new View.OnClickListener() {
+      @Override
+      public void onClick(View v) {
+        Uri uri = Uri.parse(FragmentInfo.URL_SOURCE);
+        Intent intent = new Intent(Intent.ACTION_VIEW, uri);
+        context.startActivity(intent);
+      }
+    };
+  }
+  
+  public static View.OnClickListener getInstagramListener(Context context) {
+    return new View.OnClickListener() {
+      @Override
+      public void onClick(View v) {
+        Uri uri = Uri.parse(FragmentInfo.URL_INSTAGRAM);
+  
+        try {
+          Intent intent = new Intent(Intent.ACTION_VIEW, uri);
+          intent.setPackage(FragmentInfo.INSTAGRAM_PACKAGE);
+          context.startActivity(intent);
+        }
+        catch (Exception e) {
+          Intent intent = new Intent(Intent.ACTION_VIEW, uri);
+          context.startActivity(intent);
+        }
+      }
+    };
+  }
+  
+  public static View.OnClickListener getTelegramListener(Context context) {
+    return new View.OnClickListener() {
+      @Override
+      public void onClick(View v) {
+        Uri uri = Uri.parse(FragmentInfo.URL_TELEGRAM);
+      
+        try {
+          Intent intent = new Intent(Intent.ACTION_VIEW, uri);
+          intent.setPackage(FragmentInfo.TELEGRAM_PACKAGE);
+          context.startActivity(intent);
+        }
+        catch (Exception e) {
+          Intent intent = new Intent(Intent.ACTION_VIEW, uri);
+          context.startActivity(intent);
+        }
       }
     };
   }
