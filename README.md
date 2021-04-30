@@ -26,9 +26,9 @@ App doesn't collect any user data and doesn't use internet
 
 There are three image-buttons at Info-page :
 
-- Source code (current page)
-- Instagram (for contact to developer)
-- Telegram (for contact to developer too) 
+- Source code : _current page_
+- Instagram : _for contact to developer_
+- Telegram : _for contact to developer too_
 
 ↑ This is the one thing, where application need web connection
 
