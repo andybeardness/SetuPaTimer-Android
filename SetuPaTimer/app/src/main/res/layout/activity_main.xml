@@ -1,28 +1,50 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
   xmlns:app="http://schemas.android.com/apk/res-auto"
   xmlns:tools="http://schemas.android.com/tools"
   android:layout_width="match_parent"
   android:layout_height="match_parent"
   android:orientation="vertical"
+  android:background="@color/black"
+  android:padding="@dimen/main_padding"
   tools:context=".ActivityMain">
   
-  <FrameLayout
-    android:id="@+id/joke_choosen"
+  <LinearLayout
+    android:id="@+id/frames"
     android:layout_width="match_parent"
     android:layout_height="0dp"
-    android:layout_weight="1" />
-  
-  <FrameLayout
-    android:id="@+id/joke_list"
-    android:layout_width="match_parent"
-    android:layout_height="0dp"
-    android:layout_weight="2" />
+    android:layout_weight="1"
+    android:orientation="vertical"
+    >
+    
+    <FrameLayout
+      android:id="@+id/joke_choosen"
+      android:layout_width="match_parent"
+      android:layout_height="0dp"
+      android:layout_weight="2"
+      android:layout_marginBottom="@dimen/main_items_margin_bottom"
+      tools:ignore="NestedWeights" />
+    
+    <FrameLayout
+      android:id="@+id/jokes_list"
+      android:layout_width="match_parent"
+      android:layout_height="0dp"
+      android:layout_weight="5"
+      android:layout_marginBottom="@dimen/main_items_margin_bottom"
+      />
+    
+  </LinearLayout>
   
   <com.google.android.material.bottomnavigation.BottomNavigationView
     android:id="@+id/bottom_navigation"
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
-    app:menu="@menu/bottom_navigation_menu"/>
+    android:background="@drawable/border_empty_blue"
+    app:itemIconTint="@color/bottom_bar_item_color"
+    app:itemTextColor="@color/bottom_bar_item_color"
+    app:labelVisibilityMode="labeled"
+    app:menu="@menu/bottom_navigation_menu"
+    />
 
 </LinearLayout>
