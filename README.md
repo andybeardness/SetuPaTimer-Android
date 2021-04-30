@@ -36,7 +36,7 @@ There are three image-buttons at Info-page :
 
 ## Preview
 
-### Landspace s-shots
+### Landspace screenshots
 
 |   |   |
 | - | - |
@@ -45,7 +45,7 @@ There are three image-buttons at Info-page :
 | ![screenshot_4](https://github.com/andybeardness/Android-SetuPaTimer/blob/main/imgs/ss_portrait/4.png) | ![screenshot_5](https://github.com/andybeardness/Android-SetuPaTimer/blob/main/imgs/ss_portrait/5.png) |
 | ![screenshot_6](https://github.com/andybeardness/Android-SetuPaTimer/blob/main/imgs/ss_portrait/6.png) | ![screenshot_7](https://github.com/andybeardness/Android-SetuPaTimer/blob/main/imgs/ss_portrait/7.png) |
 
-### Portrait s-shots
+### Portrait screenshots
 
 |   |   |
 | - | - |
