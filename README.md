@@ -30,7 +30,8 @@ There are three image-buttons at Info-page :
 - Instagram : _for contact to developer_
 - Telegram : _for contact to developer too_
 
-↑ This is the one thing, where application need web connection
+↑ ↑ ↑ ↑
+This is the one thing, where application need web connection
 
 ----
 
