@@ -9,7 +9,6 @@
   <string name="bottom_bar_button_favorite">Любимые</string>
   <string name="bottom_bar_button_info">Инфо</string>
   
-  <string name="no_choosen_joke">Ткни на шутёху</string>
   <string name="info_text_0">Приложение, которое хранит в себе около 60 плохих шуток (18+)</string>
   <string name="info_text_1">Выбирая шутку в верху экрана появлется полный текст и две кнопки : Узнать продолжение и Добавить в Любимые</string>
   <string name="info_text_2">Продолжение шутейки вылетает внизу экрана на короткое время</string>
