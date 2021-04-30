@@ -1,9 +1,14 @@
 <resources>
-  <string name="app_name">SetuPaTimer</string>
   
-  <string name="bottombar_button_all">Все</string>
-  <string name="bottombar_button_unwatched">Свежие</string>
-  <string name="bottombar_button_watched">Бояны</string>
-  <string name="bottombar_button_favorite">Любимые</string>
+  <string name="app_name">СетаПаТаймер</string>
+  <string name="app_name_pretty">«СетаПаТаймер»</string>
   
+  <string name="bottom_bar_button_all">Все</string>
+  <string name="bottom_bar_button_unwatched">Свежие</string>
+  <string name="bottom_bar_button_watched">Бояны</string>
+  <string name="bottom_bar_button_favorite">Любимые</string>
+  <string name="bottom_bar_button_info">Инфо</string>
+  
+  <string name="no_choosen_joke">Ткни на шутёху</string>
+
 </resources>
