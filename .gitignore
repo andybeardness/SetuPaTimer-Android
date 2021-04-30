@@ -115,3 +115,7 @@ SetuPaTimer/gradlew
 SetuPaTimer/gradlew.bat
 SetuPaTimer/gradle.properties
 SetuPaTimer/settings.gradle
+
+SetuPaTimer/app/release/
+
+secret_key/
