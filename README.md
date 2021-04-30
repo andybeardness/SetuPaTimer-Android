@@ -2,7 +2,7 @@
 
 Application for set up and delayed punchline
 
-<img src="https://github.com/andybeardness/Android-SetuPaTimer/blob/main/imgs/app_icon.png" height="400">
+<img src="https://github.com/andybeardness/Android-SetuPaTimer/blob/main/imgs/app_icon.png" height="350">
 
 ----
 
