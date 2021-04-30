@@ -63,7 +63,7 @@ Click to play youtube video
 - _Link is opening at current tab_ 
 - _Video contains music_
 
-<a href="https://www.youtube.com/watch?v=T_0nY_sfZLY">
+<a target="_blank" href="https://www.youtube.com/watch?v=T_0nY_sfZLY">
 	<img src="https://raw.githubusercontent.com/andybeardness/Android-SetuPaTimer/main/imgs/yt.png" height="200">
 </a>
 
