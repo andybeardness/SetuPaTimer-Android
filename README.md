@@ -38,12 +38,11 @@ There are three image-buttons at Info-page :
 
 ### Portrait screenshots
 
-|   |   |
-| - | - |
-| ![screenshot_0](https://github.com/andybeardness/Android-SetuPaTimer/blob/main/imgs/ss_portrait/0.png) | ![screenshot_1](https://github.com/andybeardness/Android-SetuPaTimer/blob/main/imgs/ss_portrait/1.png) |
-| ![screenshot_2](https://github.com/andybeardness/Android-SetuPaTimer/blob/main/imgs/ss_portrait/2.png) | ![screenshot_3](https://github.com/andybeardness/Android-SetuPaTimer/blob/main/imgs/ss_portrait/3.png) |
-| ![screenshot_4](https://github.com/andybeardness/Android-SetuPaTimer/blob/main/imgs/ss_portrait/4.png) | ![screenshot_5](https://github.com/andybeardness/Android-SetuPaTimer/blob/main/imgs/ss_portrait/5.png) |
-| ![screenshot_6](https://github.com/andybeardness/Android-SetuPaTimer/blob/main/imgs/ss_portrait/6.png) | ![screenshot_7](https://github.com/andybeardness/Android-SetuPaTimer/blob/main/imgs/ss_portrait/7.png) |
+|   |   |   |
+| - | - | - |
+| ![screenshot_](https://github.com/andybeardness/Android-SetuPaTimer/blob/main/imgs/ss_portrait/0.png) | ![screenshot_](https://github.com/andybeardness/Android-SetuPaTimer/blob/main/imgs/ss_portrait/1.png) | ![screenshot_](https://github.com/andybeardness/Android-SetuPaTimer/blob/main/imgs/ss_portrait/2.png) |
+| ![screenshot_](https://github.com/andybeardness/Android-SetuPaTimer/blob/main/imgs/ss_portrait/3.png) | ![screenshot_](https://github.com/andybeardness/Android-SetuPaTimer/blob/main/imgs/ss_portrait/4.png) | ![screenshot_](https://github.com/andybeardness/Android-SetuPaTimer/blob/main/imgs/ss_portrait/5.png) |
+| ![screenshot_](https://github.com/andybeardness/Android-SetuPaTimer/blob/main/imgs/ss_portrait/6.png) | ![screenshot_](https://github.com/andybeardness/Android-SetuPaTimer/blob/main/imgs/ss_portrait/7.png) | ![screenshot_](https://github.com/andybeardness/Android-SetuPaTimer/blob/main/imgs/ss_portrait/8.png) |
 
 ### Landspace screenshots
 
